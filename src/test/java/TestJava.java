@@ -17,6 +17,7 @@ public class TestJava
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.gmail.com");
+		System.out.println("hi");
 		
 	}
 }
